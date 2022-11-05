@@ -19,6 +19,7 @@ def input_error(handler):
     return wrapper
 
 def stop():
+    save_to_file()
     return 'Good bye!'
 
 def greeting():
